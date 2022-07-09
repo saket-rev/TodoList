@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-saket:Test123@cluster0.xjcudg6.mongodb.net/todolistDB", {
+mongoose.connect("mongodb+srv://admin-saket:<password>@cluster0.xjcudg6.mongodb.net/todolistDB", {
   useNewUrlParser: true
 });
 
